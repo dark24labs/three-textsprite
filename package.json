@@ -1,0 +1,80 @@
+{
+  "_from": "@seregpie/three.text-sprite@^2.0.0",
+  "_id": "@seregpie/three.text-sprite@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YaHmMNOmaXDGEOam1/STmVkI/rBdQqfcKlhcgHqhujjUG5skF2uc5cWYig0u3inn0m9oYsp6xqWb3rwtMOdoRg==",
+  "_location": "/@seregpie/three.text-sprite",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@seregpie/three.text-sprite@^2.0.0",
+    "name": "@seregpie/three.text-sprite",
+    "escapedName": "@seregpie%2fthree.text-sprite",
+    "scope": "@seregpie",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@seregpie/three.text-sprite/-/three.text-sprite-2.0.0.tgz",
+  "_shasum": "4868b7084992726d78e70a0d9186bf577b3b15e0",
+  "_spec": "@seregpie/three.text-sprite@^2.0.0",
+  "_where": "W:\\Dark24\\repo\\joniec-react",
+  "author": {
+    "name": "Sergej Sintschilin",
+    "email": "seregpie@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SeregPie/THREE.TextSprite/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@seregpie/three.text-texture": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "Automatically computes the optimal font size depending on the distance to the camera and the size of the renderer DOM element.",
+  "devDependencies": {
+    "rollup": "^1.26.3",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2"
+  },
+  "files": [],
+  "homepage": "https://github.com/SeregPie/THREE.TextSprite#readme",
+  "keywords": [
+    "3d",
+    "canvas",
+    "class",
+    "font",
+    "image",
+    "material",
+    "mesh",
+    "object",
+    "plugin",
+    "resolution",
+    "scale",
+    "size",
+    "sprite",
+    "text",
+    "texture",
+    "three"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@seregpie/three.text-sprite",
+  "peerDependencies": {
+    "three": ">=0.86"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeregPie/THREE.TextSprite.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "version": "2.0.0"
+}
